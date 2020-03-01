@@ -1,0 +1,7 @@
+{
+  "name": "Combustivel calculator",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

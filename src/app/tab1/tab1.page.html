@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      GASALCOOL
+    </ion-title>
+    <ion-img   src="../../assets/icon.png" slot="start" class="icon"></ion-img>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-img   src="../../assets/icon.png"  class="foto" ></ion-img>
+  <br>
+  <h3 class="texto">Valores:</h3><br>
+  <ion-input type="number" class="area" placeholder="Gasolina" [(ngModel)]="combustivel.gasopa"></ion-input><br>
+  <ion-input type="number" class="area" placeholder="Etanol" [(ngModel)]="combustivel.alcool"></ion-input><br>
+  <ion-button class="botao" color="dark" (click)="comparar(combustivel)"  >COMPARAR</ion-button>
+</ion-content>

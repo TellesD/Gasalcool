@@ -1,0 +1,37 @@
+
+ion-content {
+
+  --background: rgb(100,209,226) !important;
+ background-size: cover ;
+
+}
+ion-toolbar {
+  --background: rgb(100,209,226);
+  --ion-color-base: transparent !important;
+  box-shadow: none  
+  
+}
+.icon{
+  height: 50px;
+  margin-left: 85% ;
+  
+}
+
+.foto{
+  height: 250px;
+}
+.area{
+  background-color: white;
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.texto{
+  margin-left:80px;
+}
+.botao{
+  color: white;
+  width: 200px;
+  margin-left: 23%;
+ 
+}
